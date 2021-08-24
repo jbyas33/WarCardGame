@@ -4,16 +4,18 @@
   }
 
   body {
+    background-image: url(alita-title.jpg);
+    background-size: 100%;
     margin: 0;
     display: grid;
-    grid-template-columns: repeat(2, 6rem);
-    grid-template-rows: 9rem 2rem 9rem;
-    gap: .5rem;
+    grid-template-columns: repeat(2, 5rem);
+    grid-template-rows: 7rem 2rem 7rem;
+    gap: .6rem;
     cursor: pointer;
     justify-content: center;
-    padding-top: 5rem;
-  }
-     
+    padding-top: 1rem;
+ }
+      
   .deck {
     height: 100%;
     width: 100%;
@@ -32,17 +34,19 @@
   }
   
   .player-deck {
-    background-image: linear-gradient(purple, green, blue);
-  }
+    background: linear-gradient(blue, green, purple);
+  }  
   
   .text {
     grid-column: span 2;
     display: flex;
     justify-content: center;
     align-items: center;
+    font-size: 3rem
   }
   
   .card {
+    background-image: linear-gradient(white, rgb(224, 40, 178));
     position: relative;
     height: 100%;
     width: 100%;
@@ -59,10 +63,11 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    font-size: 4rem
+    font-size: 3rem;
+    color:yellow
   }
   
-    .card.red {
+  .card.red {
     color: red;
   }
   
