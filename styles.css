@@ -4,7 +4,8 @@
   }
 
   body {
-    background-image: url(alita-title.jpg);
+    background-image: url("https://www.loveandoliveoil.com/wp-content/uploads/2017/06/cookie-dough-mochiH2.jpg");
+    background-repeat: no-repeat;
     background-size: 100%;
     margin: 0;
     display: grid;
@@ -13,7 +14,7 @@
     gap: .6rem;
     cursor: pointer;
     justify-content: center;
-    padding-top: 1rem;
+    padding-top: 1rem; */
  }
       
   .deck {
@@ -50,7 +51,7 @@
     position: relative;
     height: 100%;
     width: 100%;
-    border: 1px solid black;
+    border: 3px solid black;
     border-radius: .5rem;
     display: flex;
     justify-content: center;
@@ -64,7 +65,7 @@
     justify-content: center;
     align-items: center;
     font-size: 3rem;
-    color:yellow
+    color: rebeccapurple;
   }
   
   .card.red {
@@ -92,4 +93,5 @@
     right: .5rem;
     transform: rotate(180deg);
   }
+  
   

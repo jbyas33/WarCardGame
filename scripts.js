@@ -49,9 +49,9 @@ function startGame() {
     
   //change the number of cards in the deck
   const deckMidpoint = Math.ceil(deck.numberOfCards / 2)
-  playerDeck = new Deck(deck.cards.slice(0, deckMidpoint))
+  playerDeck = new Deck(deck.cards.slice(0,  deckMidpoint))
   computerDeck = new Deck(deck.cards.slice(deckMidpoint, deck.numberOfCards))
-  //computerDeck = new Deck([new Car ('s', 20]) - speed up the outcome of game
+  //computerDeck = new Deck([new Car ('s', 20])  // speed up the outcome of game
   inRound = false
   stop = false
 
