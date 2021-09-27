@@ -23,4 +23,4 @@ What things you may need to install the software and how to install t
 ### Acknowledgments
 * Thank you, Kyle Cook, for your inspiration.[WebDevSimplified](https://github.com/WebDevSimplified)[WebDevSimplified](https://www.youtube.com/watch?v=NxRwIZWjLtE)
 
-jbyas33/WarCard
+jbyas33/WarCardGame
